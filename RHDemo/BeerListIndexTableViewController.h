@@ -10,7 +10,9 @@
 #import "beer.h"
 #import "BeerCategory.h"
 
-@interface BeerListIndexTableViewController : UITableViewController <NSXMLParserDelegate>
+
+
+@interface BeerListIndexTableViewController : UITableViewController
 
 
 

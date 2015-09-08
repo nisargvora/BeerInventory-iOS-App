@@ -187,6 +187,10 @@
     NSIndexPath *path = [self.tableView indexPathForSelectedRow];
     BeerCategory *passedObj = beerObj[path.row];
     [bltvc setBeerC:passedObj];
+
+ 
+    
+    
     
 }
 

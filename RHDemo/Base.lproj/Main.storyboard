@@ -279,7 +279,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FiI-fy-tmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1836.5" y="-714.5"/>
+            <point key="canvasLocation" x="1908.5" y="-678.5"/>
         </scene>
         <!--Beer List Table View Controller-->
         <scene sceneID="7G4-XP-GdO">

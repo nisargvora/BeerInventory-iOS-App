@@ -8,6 +8,8 @@
 
 #import "LoginViewController.h"
 #import "OnlineCourse.h"
+#import "BeerListIndexTableViewController.h"
+
 #import <QuartzCore/QuartzCore.h>
 
 @interface LoginViewController ()
@@ -76,7 +78,7 @@
     OnlineCourse_IsUserValid *parms = [[OnlineCourse_IsUserValid alloc]init];
     parms.UserID = self.nameField.text;
     parms.Password = self.passField.text;
-    
+
     [binding IsUserValidAsyncUsingParameters:parms delegate:self];
 }
 
@@ -88,6 +90,7 @@
     parms.UserID = self.nameField.text;
     parms.Password = self.nameField.text;
     parms.UpdateIfExists = false;
+
     
     [binding CreateUserAccountAsyncUsingParameters:parms delegate:self];
     
@@ -113,7 +116,9 @@
             if([authString isEqual:str]) {
                 UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"User Account Successfuly Created" message:[NSString stringWithFormat:@"User is loggedin!"] delegate:self cancelButtonTitle:@"Continue" otherButtonTitles:nil];
                 [alert show];
+
                 [self performSegueWithIdentifier:@"loginSegue" sender:self];
+                
             } else {
                 UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"User Account Creation Failed" message:[NSString stringWithFormat:@"User account already exists"] delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
                 [alert show];
@@ -124,6 +129,11 @@
     }
   
 }
+
+
+
+
+
 
 
 @end
