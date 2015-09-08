@@ -31,7 +31,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     events = [[NSMutableArray alloc]init];
-    NSString *event1 = @"Google Live Event";
+    NSString *event1 = @"Current Live Events";
    // NSString *event2 = @"Yelp Live Event";
     [events addObject:event1];
     //[events addObject:event2];
