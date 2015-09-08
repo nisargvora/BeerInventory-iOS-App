@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A166D79E-BC6E-4140-96FF-42682E0F5B53</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RHDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6DEC9931492047C6985869CE8A20F2DA8A0B8DFD</key>
+		<string>https://github.com/nisargvora/RamsHead_iOSProject</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RHDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6DEC9931492047C6985869CE8A20F2DA8A0B8DFD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nisargvora/RamsHead_iOSProject</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6DEC9931492047C6985869CE8A20F2DA8A0B8DFD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6DEC9931492047C6985869CE8A20F2DA8A0B8DFD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RamsHead_iOSProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>
