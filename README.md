@@ -1,0 +1,15 @@
+# RamsHead_iOSProject
+
+##iOS Application project for The Rams Head Group
+
+###Application Features:
+
+    1. Login Authentication
+    2. User registration
+    3. Password reset and temp. password generation system 
+    4. Beer list and categories (Fetch and Display/Storage)
+    5. Bar Location 
+    6. Barcode scanner
+    7. Live Events 
+    8. Push Notifications
+        
