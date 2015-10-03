@@ -34,6 +34,7 @@
 		7D91ADE01BA090900009D381 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D91ADDF1BA090900009D381 /* SystemConfiguration.framework */; };
 		7D91ADE21BA090960009D381 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D91ADE11BA090960009D381 /* libz.dylib */; };
 		7D91ADE41BA0909F0009D381 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D91ADE31BA0909F0009D381 /* libsqlite3.dylib */; };
+		7DA255641BBDB65F00A15978 /* RHDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA255631BBDB65F00A15978 /* RHDemoUITests.m */; };
 		7DDC2B051B9D891D00C09353 /* BeerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC2B041B9D891D00C09353 /* BeerCategory.m */; };
 		7DDC2B081B9E9FAE00C09353 /* BeerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC2B071B9E9FAE00C09353 /* BeerInfoViewController.m */; };
 		7DFB2E461B9C30810076ACDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFB2E451B9C30810076ACDC /* Images.xcassets */; };
@@ -56,6 +57,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		7D0BFDAA1B9BE6F000774A4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D0BFD881B9BE6F000774A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D0BFD8F1B9BE6F000774A4D;
+			remoteInfo = RHDemo;
+		};
+		7DA255661BBDB65F00A15978 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7D0BFD881B9BE6F000774A4D /* Project object */;
 			proxyType = 1;
@@ -106,6 +114,9 @@
 		7D91ADDF1BA090900009D381 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7D91ADE11BA090960009D381 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7D91ADE31BA0909F0009D381 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7DA255611BBDB65F00A15978 /* RHDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA255631BBDB65F00A15978 /* RHDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHDemoUITests.m; sourceTree = "<group>"; };
+		7DA255651BBDB65F00A15978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DDC2B031B9D891D00C09353 /* BeerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerCategory.h; sourceTree = "<group>"; };
 		7DDC2B041B9D891D00C09353 /* BeerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerCategory.m; sourceTree = "<group>"; };
 		7DDC2B061B9E9FAE00C09353 /* BeerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerInfoViewController.h; sourceTree = "<group>"; };
@@ -171,6 +182,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DA2555E1BBDB65F00A15978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -193,6 +211,7 @@
 				7DFB2E5F1B9CC8580076ACDC /* CFNetwork.framework */,
 				7D0BFD921B9BE6F000774A4D /* RHDemo */,
 				7D0BFDAC1B9BE6F000774A4D /* RHDemoTests */,
+				7DA255621BBDB65F00A15978 /* RHDemoUITests */,
 				7D0BFD911B9BE6F000774A4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -202,6 +221,7 @@
 			children = (
 				7D0BFD901B9BE6F000774A4D /* RHDemo.app */,
 				7D0BFDA91B9BE6F000774A4D /* RHDemoTests.xctest */,
+				7DA255611BBDB65F00A15978 /* RHDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -297,6 +317,15 @@
 			path = "parse-library-1.8.2";
 			sourceTree = "<group>";
 		};
+		7DA255621BBDB65F00A15978 /* RHDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DA255631BBDB65F00A15978 /* RHDemoUITests.m */,
+				7DA255651BBDB65F00A15978 /* Info.plist */,
+			);
+			path = RHDemoUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -335,6 +364,24 @@
 			productReference = 7D0BFDA91B9BE6F000774A4D /* RHDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		7DA255601BBDB65F00A15978 /* RHDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA2556A1BBDB66000A15978 /* Build configuration list for PBXNativeTarget "RHDemoUITests" */;
+			buildPhases = (
+				7DA2555D1BBDB65F00A15978 /* Sources */,
+				7DA2555E1BBDB65F00A15978 /* Frameworks */,
+				7DA2555F1BBDB65F00A15978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DA255671BBDB65F00A15978 /* PBXTargetDependency */,
+			);
+			name = RHDemoUITests;
+			productName = RHDemoUITests;
+			productReference = 7DA255611BBDB65F00A15978 /* RHDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -351,6 +398,10 @@
 					7D0BFDA81B9BE6F000774A4D = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = KKX8KEUZ6R;
+						TestTargetID = 7D0BFD8F1B9BE6F000774A4D;
+					};
+					7DA255601BBDB65F00A15978 = {
+						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 7D0BFD8F1B9BE6F000774A4D;
 					};
 				};
@@ -370,6 +421,7 @@
 			targets = (
 				7D0BFD8F1B9BE6F000774A4D /* RHDemo */,
 				7D0BFDA81B9BE6F000774A4D /* RHDemoTests */,
+				7DA255601BBDB65F00A15978 /* RHDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -386,6 +438,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7D0BFDA71B9BE6F000774A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA2555F1BBDB65F00A15978 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,6 +490,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DA2555D1BBDB65F00A15978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA255641BBDB65F00A15978 /* RHDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -438,6 +505,11 @@
 			isa = PBXTargetDependency;
 			target = 7D0BFD8F1B9BE6F000774A4D /* RHDemo */;
 			targetProxy = 7D0BFDAA1B9BE6F000774A4D /* PBXContainerItemProxy */;
+		};
+		7DA255671BBDB65F00A15978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D0BFD8F1B9BE6F000774A4D /* RHDemo */;
+			targetProxy = 7DA255661BBDB65F00A15978 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -501,7 +573,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "cece295b-8fbb-4c96-b07f-07dca3410e5a";
+				PROVISIONING_PROFILE = "11197e04-15b0-4de7-acb3-db4b9036f90d";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -539,7 +611,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "cece295b-8fbb-4c96-b07f-07dca3410e5a";
+				PROVISIONING_PROFILE = "11197e04-15b0-4de7-acb3-db4b9036f90d";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -551,6 +623,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1.8.2",
@@ -564,7 +637,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "cece295b-8fbb-4c96-b07f-07dca3410e5a";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -574,6 +647,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1.8.2",
@@ -587,7 +661,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "cece295b-8fbb-4c96-b07f-07dca3410e5a";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -631,6 +705,34 @@
 			};
 			name = Release;
 		};
+		7DA255681BBDB65F00A15978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = RHDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisargvora.RHDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RHDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7DA255691BBDB65F00A15978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RHDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisargvora.RHDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RHDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -660,6 +762,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		7DA2556A1BBDB66000A15978 /* Build configuration list for PBXNativeTarget "RHDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA255681BBDB65F00A15978 /* Debug */,
+				7DA255691BBDB65F00A15978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

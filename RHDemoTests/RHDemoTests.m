@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "LoginViewController.h"
 
 @interface RHDemoTests : XCTestCase
 
@@ -26,8 +27,13 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
+
     XCTAssert(YES, @"Pass");
+}
+
+-(void)testUserLogin {
+    
+    XCTAssert(YES,@"This this a failed test");
 }
 
 - (void)testPerformanceExample {

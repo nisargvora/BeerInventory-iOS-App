@@ -13,10 +13,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface LoginViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *nameField;
-@property (weak, nonatomic) IBOutlet UIButton *loginButton;
-@property (weak, nonatomic) IBOutlet UIButton *signupButton;
-@property (weak, nonatomic) IBOutlet UITextField *passField;
+
 - (IBAction)loginAction:(id)sender;
 - (IBAction)signupAction:(id)sender;
 
