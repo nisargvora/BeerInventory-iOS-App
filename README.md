@@ -2,6 +2,8 @@
 
 ##iOS Application project for The Rams Head Group
 
+## Beer Inventory System
+
 ###Application Features:
 
     1. Login Authentication
