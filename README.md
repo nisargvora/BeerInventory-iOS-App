@@ -1,7 +1,3 @@
-# RamsHead_iOSProject
-
-##iOS Application project for The Rams Head Group
-
 ## Beer Inventory System
 
 ###Application Features:
